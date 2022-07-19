@@ -10,9 +10,11 @@ import NotificationList from './chp_06/NotificationList'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  // npx create-react-app으로 프로젝트 생성 시, 자동 설정된 Strict Mode 때문에 
+  // react rendering이 두 번 발생 => 주석 처리
+  //<React.StrictMode>
     <NotificationList />
-  </React.StrictMode>
+  //</React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
