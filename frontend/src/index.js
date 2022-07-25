@@ -13,13 +13,16 @@ import LandingPage from './chp_09/LandingPage';
 import AttendanceBook from './chp_10/AttendanceBook';
 import SignUp from './chp_11/SignUp';
 import Calculator from './chp_12/Calculator';
+import ProfileCard from './chp_13/ProfileCard';
+import DarkOrLight from './chp_14/DarkOrLight';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // npx create-react-app으로 프로젝트 생성 시, 자동 설정된 Strict Mode 때문에 
   // react rendering이 두 번 발생 => 주석 처리
   //<React.StrictMode>
-    <Calculator />
+    <DarkOrLight />
   //</React.StrictMode>
 );
 
